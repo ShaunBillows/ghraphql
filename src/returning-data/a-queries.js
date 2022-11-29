@@ -1,3 +1,5 @@
+// Getting Started With GraphQL.js
+
 // To handle GraphQL queries, we need a schema that defines the Query type, and we need an API root with a function called a “resolver” for each API endpoint.
 
 var { graphql, buildSchema } = require('graphql');
@@ -19,7 +21,7 @@ var rootValue = {
 // Run the GraphQL query '{ hello }' and print out the response
 graphql({
   schema,
-  source: '{ hello }',
+  source: '{ hello }', // { hello } is the graphql query the result is { data: { hello: 'Hello world!' } }
   rootValue
 }).then((response) => {
   console.log(response);
