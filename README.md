@@ -1,1 +1,1 @@
-# ghraphql-tutorial
+This repo is for learning graphql and providing a resource for future projects.
