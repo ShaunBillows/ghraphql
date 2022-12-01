@@ -132,14 +132,14 @@ app.listen(4000, () => {
 
 // To call a mutation, you must use the keyword mutation before your GraphQL query. To pass an input type, provide the data written as if it's a JSON object. For example, with the server defined above, you can create a new message and return the id of the new message with this operation:
 
-mutation {
-  createMessage(input: {
-    author: "andy",
-    content: "hope is a good thing",
-  }) {
-    id
-  }
-}
+// mutation {
+//   createMessage(input: {
+//     author: "andy",
+//     content: "hope is a good thing",
+//   }) {
+//     id
+//   }
+// }
 
 // You can use variables to simplify mutation client logic just like you can with queries. For example, some JavaScript code that calls the server to execute this mutation is:
 

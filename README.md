@@ -1,1 +1,1 @@
-This repo is for learning graphql and providing a resource for future projects.
+The purpose of this repo was learning GraphQL and providing a resource for future GraphQL projects.  The tutorial folder contains notes from the GraphQL.js tutorial in the GraphQl documentation.  The src folder contains a GraphQL CRUD API for interacting with a recipe database, created using GraphQL, Apollo Server and MongoDB Atlas.
